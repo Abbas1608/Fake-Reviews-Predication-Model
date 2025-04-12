@@ -1,10 +1,10 @@
-# 🧠 Fake Review Detection Using Linear Regression & Gradio
+# Fake Review Detection Using Linear Regression & Gradio
 
 This project predicts product review ratings and classifies them as **Real** or **Fake** using a simple machine learning model trained on text data. It uses **NLP techniques**, **TF-IDF vectorization**, and a **Linear Regression model**, all wrapped in a clean **Gradio web interface**.
 
 ---
 
-## 📌 Why Detect Fake Reviews?
+## Why Detect Fake Reviews?
 
 In today's online shopping ecosystem, **fake product reviews** can mislead consumers into buying poor-quality items or avoiding good ones. Detecting them is critical to:
 
@@ -14,7 +14,7 @@ In today's online shopping ecosystem, **fake product reviews** can mislead consu
 
 ---
 
-## ⚙️ Tech Stack
+## Tech Stack
 
 | Layer                   | Tool / Library                           | Purpose                                                                 |
 |-------------------------|------------------------------------------|-------------------------------------------------------------------------|
@@ -31,7 +31,7 @@ In today's online shopping ecosystem, **fake product reviews** can mislead consu
 
 ---
 
-## 🔄 How It Works
+## How It Works
 
 1. **Data Loading:** The dataset is imported from Kaggle and loaded using `pandas`.
 2. **Text Cleaning:** Reviews are converted to lowercase, stripped of punctuation, and filtered to remove common stopwords using `nltk`.
@@ -41,7 +41,7 @@ In today's online shopping ecosystem, **fake product reviews** can mislead consu
 6. **Gradio Interface:** Users can enter a product review in a textbox and instantly see the prediction result.
 
 ---
-## ✅ Conclusion
+## Conclusion
 
 - This project demonstrates how simple NLP and machine learning techniques can be used to detect potentially fake reviews based on text sentiment.
 - By combining `TF-IDF`, `Linear Regression`, and a `Gradio UI`, the app provides a quick and interactive way to test review authenticity.
@@ -49,7 +49,7 @@ In today's online shopping ecosystem, **fake product reviews** can mislead consu
 
 ---
 
-### 🔗 Dataset Source:
+### Dataset Source:
 - [Kaggle - Fake Product Reviews Dataset](https://www.kaggle.com/datasets/mexwell/fake-reviews-dataset)
 
 ---
